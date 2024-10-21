@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Image</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Text to Image Generator</h1>
+        <div class="input">
+            <label for="input">Create an image:</label>
+            <input type="text" id="input" placeholder="Enter your text here">
+            <button id="btn">Generate the image</button>
+        </div>
+        <div class="output">
+            <div class="image">
+                <!-- Use the same img element and set the default to img.svg -->
+                <img id="image" src="img.svg" alt="Generated Image">
+            </div>
+            <div class="btns">
+                <button id="down">Download <img src="download.svg" alt=""></button>
+                <button id="reset">Reset <img src="reset.svg" alt=""></button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
