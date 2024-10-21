@@ -1,4 +1,4 @@
-const key = "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"; // Ensure the key is wrapped in quotes
+const key = "write your hugging face token here"; // Ensure the key is wrapped in quotes
 const inputText = document.getElementById("input"); 
 const image = document.getElementById("image"); 
 const generatebtn = document.getElementById("btn");
