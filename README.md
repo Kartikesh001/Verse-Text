@@ -27,5 +27,5 @@ This is a simple web application that generates images based on user-provided te
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/text-to-image-generator.git
+   git clone 
    cd text-to-image-generator
